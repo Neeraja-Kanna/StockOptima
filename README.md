@@ -49,26 +49,32 @@ Frameworks and Libraries: TensorFlow, Flask for the backend; React.js + Vite for
 Deployment: The project is deployed on a local server for demo purposes, with potential scalability for cloud deployment.
 
 ## How to Run the Project
-Clone the Repository:
-'''bash
-git clone <repository-link> '''
 
-Install Dependencies:
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   ```
 
-'''npm install
-pip install -r requirements.txt'''
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   pip install -r requirements.txt
+   ```
 
-Run the Application:
-'''cd client
+3. **Run the Application**:
+   ```bash
+   cd client
+   npm run dev
 
- npm run dev'''
-'''cd server  
+   cd server
+   npm start
 
-npm start'''
-'''python app.py'''
+   python app.py
+   ```
 
-Access the Application: 
-Open a web browser and navigate to http://localhost:5173/home.
+4. **Access the Application**:
+   Open a web browser and navigate to [http://localhost:5173/home](http://localhost:5173/home).
+
 
 ## Future Enhancements
 Expand Commodity Range: Include additional commodities beyond the current 22.
