@@ -50,19 +50,22 @@ Deployment: The project is deployed on a local server for demo purposes, with po
 
 ## How to Run the Project
 Clone the Repository:
-bash
-git clone <repository-link>
+'''bash
+git clone <repository-link> '''
 
 Install Dependencies:
-npm install
-pip install -r requirements.txt
+
+'''npm install
+pip install -r requirements.txt'''
 
 Run the Application:
-cd client
-npm run dev
-cd server 
-npm start
-python app.py
+'''cd client
+
+ npm run dev'''
+'''cd server  
+
+npm start'''
+'''python app.py'''
 
 Access the Application: 
 Open a web browser and navigate to http://localhost:5173/home.
